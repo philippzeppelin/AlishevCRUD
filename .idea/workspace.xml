@@ -9,14 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="110c5e06-c495-42d4-bef1-92b99e4f613c" name="Changes" comment="Finished with jdbc Spring MVC CRUD">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.properties" afterDir="false" />
+    <list default="true" id="110c5e06-c495-42d4-bef1-92b99e4f613c" name="Changes" comment="Finished changing hibernate project tp hibernate + spring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/models/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/repositories/ItemsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/repositories/PeopleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/services/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/services/PeopleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/dao/PersonDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hibernate" />
+        <entry key="$PROJECT_DIR$" value="spring-plus-hibernate" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,10 +70,11 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.alishev-spring-mvc [clean].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Tomcat Server.Tomcat 9.0.87.executor": "Run",
-    "git-widget-placeholder": "spring-plus-hibernate",
+    "git-widget-placeholder": "spring-data-jpa-from-hiber+spring",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Developer/Java/Projects/Kata pre-project/PP_2_2_2_spring-mvc-master",
@@ -204,7 +210,9 @@
       <workItem from="1711520102307" duration="167000" />
       <workItem from="1711565336611" duration="6364000" />
       <workItem from="1711647328948" duration="3208000" />
-      <workItem from="1712082121730" duration="3823000" />
+      <workItem from="1712082121730" duration="8776000" />
+      <workItem from="1712162030082" duration="5353000" />
+      <workItem from="1712225716564" duration="1394000" />
     </task>
     <task id="LOCAL-00001" summary="Finished with jdbc Spring MVC CRUD">
       <option name="closed" value="true" />
@@ -214,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711570737593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished changing hibernate project tp hibernate + spring">
+      <option name="closed" value="true" />
+      <created>1712086287483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712086287483</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +249,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished with jdbc Spring MVC CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished with jdbc Spring MVC CRUD" />
+    <MESSAGE value="Finished changing hibernate project tp hibernate + spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished changing hibernate project tp hibernate + spring" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/services/ItemService.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/services/ItemService.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/philippzeppelin/springcourse/services/PeopleService.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
